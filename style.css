@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    padding: 30px 30px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-left{
+    background: white;
+    display: flex;
+    gap: 100px;
+}
+
+#header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#text-left{
+    font-size: 16px;
+    font-weight: 600;
+    transform: scaleY(1.12);
+}
+
+#text-right{
+    font-size: 16px;
+    font-weight: 600;
+    transform: scaleY(1.12);
+}
+
+button{
+    background-color: white;
+    border: 0px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    transform: scaleY(1.12);
+}
+
+#main-text{
+    height: 450px;
+    background: white;
+    margin:70px 30px;
+   
+}
+
+#up-text{
+    font-size: 25px;
+    font-weight: 600;
+    transform: scaleY(1.12);
+}
+
+#down-text{
+    font-size: 100px;
+    font-weight: 600;
+    transform: scaleY(1.12);
+    padding-top: 30px;
+    letter-spacing: -4px;
+}
+
+#mid{
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mid-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#bottom{
+    background: white;
+    height: 65%;
+    margin: 30px 30px;
+    display: flex;
+    gap: 40px;
+}
+
+#bottom-left{
+    background: white;
+    width: 50%;
+    height: 150%;
+}
+
+#bottom-right{
+    background: white;
+    width: 50%;
+    height: 150%;
+}
+
+#left-img{
+    height: 798px;
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#right-img{
+    height: 798px;
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#bottom-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#down-button{
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 5px 20px;
+}
